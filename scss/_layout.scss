@@ -20,13 +20,13 @@ body {
 	align-items: center;
 
 	//! bg styles
-	background: url(/images/bg-desktop.svg), $violet;
+	background: url(../images/bg-desktop.svg), $violet;
 	background-position: top right;
 	background-repeat: no-repeat;
 	background-size: cover;
 
 	@media (max-width: 399px) {
-		background: url(/images/bg-mobile.svg), $violet;
+		background: url(../images/bg-mobile.svg), $violet;
 		background-repeat: no-repeat;
 		background-position: top;
 		// background-size: cover;
